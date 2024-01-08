@@ -5,7 +5,7 @@ Necessary resources of software, algorithms, and databases are provided as follo
 
 | **REAGENT or RESOURCES**    | **Version**                | **IDENTIFIER**                                        | **SOURCE**                                         |
 |:-----------------------:|:----------------------:|:-------------------------------------------------:|:----------------------------------------------:|
-| **<nobr>Software and algorithms</nobr>** |                        |                                                   |                                                |
+| **Software and algorithms** |                        |                                                   |                                                |
 | Trimmomatic             | v0.38                  | https://github.com/usadellab/trimmomatic          | https://doi.org/10.1093/bioinformatics/btu170  |
 | MetaPhlAn2              | v2.6.0                 | https://github.com/biobakery/metaphlan2           | https://doi.org/10.1038/nmeth.3589             |
 | MEGAHIT                 | v1.1.2                 | https://github.com/voutcn/megahit                 | https://doi.org/10.1093/bioinformatics/btv033  |
