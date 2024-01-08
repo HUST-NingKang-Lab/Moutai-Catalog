@@ -1,3 +1,7 @@
+table th {
+    white-space: nowrap; /*表头内容强制在一行显示*/
+}
+
 # The Construction of Reference Gene and Genome Catalogs of Chinese Liquor
 
 <h2>Key Resource Table</h2>
