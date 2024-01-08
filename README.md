@@ -3,7 +3,7 @@
 <h2>Key Resource Table</h2>
 Necessary resources of software, algorithms, and databases are provided as follow:
 
-| **REAGENT or RESOURCES**    | **Version**                | **IDENTIFIER**                                        | **SOURCE**                                         |
+| **<nobr>REAGENT or RESOURCES</nobr>**    | **Version**                | **IDENTIFIER**                                        | **SOURCE**                                         |
 |:-----------------------:|:----------------------:|:-------------------------------------------------:|:----------------------------------------------:|
 | **Software and algorithms** |                        |                                                   |                                                |
 | Trimmomatic             | v0.38                  | https://github.com/usadellab/trimmomatic          | https://doi.org/10.1093/bioinformatics/btu170  |
