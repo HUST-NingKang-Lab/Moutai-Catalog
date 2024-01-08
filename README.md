@@ -2,13 +2,13 @@
 
 Necessary resources of software, algorithms, and databases are provided as follow:
 
-| **reagent or resources**    | **version**                | **identifier**                                        | **source**                                         |
+| **REAGENT or RESOURCES**    | **Version**                | **IDENTIFIER**                                        | **SOURCE**                                         |
 |:-----------------------:|:----------------------:|:-------------------------------------------------:|:----------------------------------------------:|
-| **software and algorithms** |                        |                                                   |                                                |
-| trimmomatic             | v0.38                  | https://github.com/usadellab/trimmomatic          | https://doi.org/10.1093/bioinformatics/btu170  |
-| metaphlan2              | v2.6.0                 | https://github.com/biobakery/metaphlan2           | https://doi.org/10.1038/nmeth.3589             |
-| megahit                 | v1.1.2                 | https://github.com/voutcn/megahit                 | https://doi.org/10.1093/bioinformatics/btv033  |
-| fastnc2                 | v2                     | https://github.com/wqssf102/fastnc2               | https://doi.org/10.1073/pnas.202532111         |
+| **Software and algorithms** |                        |                                                   |                                                |
+| Trimmomatic             | v0.38                  | https://github.com/usadellab/trimmomatic          | https://doi.org/10.1093/bioinformatics/btu170  |
+| MetaPhlAn2              | v2.6.0                 | https://github.com/biobakery/metaphlan2           | https://doi.org/10.1038/nmeth.3589             |
+| MEGAHIT                 | v1.1.2                 | https://github.com/voutcn/megahit                 | https://doi.org/10.1093/bioinformatics/btv033  |
+| FastNC2                 | v2                     | https://github.com/wqssf102/fastnc2               | https://doi.org/10.1073/pnas.202532111         |
 | quast                   | v5.0.2                 | https://github.com/ablab/quast                    | https://doi.org/10.1093/bioinformatics/btt086  |
 | metawrap                | v1.2.2                 | https://github.com/bxlab/metawrap                 | https://doi.org/10.1186/s40168-018-0541-1      |
 | checkm                  | v1.0.18                | https://github.com/tribe29/checkmk                | https://doi.org/10.1101/gr.186072.114          |
