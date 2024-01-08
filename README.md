@@ -1,5 +1,6 @@
 # The Construction of Reference Gene and Genome Catalogs of Chinese Liquor
-Necessary resources consist of softwares, algorithms and databases had been provided.
+
+Necessary resources of software, algorithms， and databases are provided as follow:
 
 | **reagent or resources**    | **version**                | **identifier**                                        | **source**                                         |
 |:-----------------------:|:----------------------:|:-------------------------------------------------:|:----------------------------------------------:|
