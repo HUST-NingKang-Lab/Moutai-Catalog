@@ -41,6 +41,7 @@ Necessary resources of software, algorithms， and databases are provided as fol
 
 
 
-**Data availability**
+<h2>**Data availability**</h2>
 
-The raw metagenomic data could be assessed at the GSA database (https://ngdc.cncb.ac.cn/gsa/) with ProjectID: PRJCA018633 (https://ngdc.cncb.ac.cn/gsub/submit/bioproject/subPRO027666/overview) for fermented grain samples and PRJCA018634 (https://ngdc.cncb.ac.cn/gsub/submit/bioproject/subPRO027667/overview) for starter samples.
+The data (raw data, genome catalog, and gene catalog) used for this study could be assessed at the <a href="https://ngdc.cncb.ac.cn/gsa/" title="GSA database">GSA database</a> with ProjectID: PRJCA018633 for fermented grain samples and PRJCA018634 for starter samples.
+
