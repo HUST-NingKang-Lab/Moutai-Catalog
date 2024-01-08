@@ -39,9 +39,7 @@ Necessary resources of software, algorithms， and databases are provided as fol
 | pfam                    | 2022_12                | http://pfam-legacy.xfam.org/                      | https://doi.org/10.1093/nar/gkaa913            |
 
 
+<h2>Data availability</h2>
 
-
-<h2>**Data availability**</h2>
-
-The data (raw data, genome catalog, and gene catalog) used for this study could be assessed at the <a href="https://ngdc.cncb.ac.cn/gsa/" title="GSA database">GSA database</a> with ProjectID: PRJCA018633 for fermented grain samples and PRJCA018634 for starter samples.
+The data (raw data, genome catalog, and gene catalog) used for this study could be assessed at the <a href="https://ngdc.cncb.ac.cn/gsa/" title="GSA database">GSA database</a> with ProjectID: <a href="https://ngdc.cncb.ac.cn/search/?dbId=gsa&q=PRJCA018633" title="PRJCA018633">PRJCA018633</a> for fermented grain samples and <a href="https://ngdc.cncb.ac.cn/search/?dbId=gsa&q=PRJCA018634" title="PRJCA018634">PRJCA018634</a> for starter samples.
 
