@@ -39,6 +39,8 @@ Necessary resources of software, algorithms， and databases are provided as fol
 | pfam                    | 2022_12                | http://pfam-legacy.xfam.org/                      | https://doi.org/10.1093/nar/gkaa913            |
 
 
+
+
 **Data availability**
 
 The raw metagenomic data could be assessed at the GSA database (https://ngdc.cncb.ac.cn/gsub/) with ProjectID: PRJCA018633 for fermented grain samples and PRJCA018634 for starter samples.
