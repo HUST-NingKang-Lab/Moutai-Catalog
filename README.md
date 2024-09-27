@@ -1,6 +1,7 @@
 # The Construction of Reference Gene and Genome Catalogs of Chinese Liquor
 
-##Pipline
+## Pipline
+
 The pipline for constructing the Moutai Microbiome Catalog is provided in the following figure:
 
 ![image](https://github.com/user-attachments/assets/87fd53c9-c70f-4fb0-8039-84fdd4ade6c7)
