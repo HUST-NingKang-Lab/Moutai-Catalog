@@ -1,14 +1,12 @@
 # The Construction of Reference Gene and Genome Catalogs of Chinese Liquor
 
-## Pipline
-
-The pipline for constructing the Moutai Microbiome Catalog is provided in the following figure:
+The pipeline for constructing the Moutai Microbiome Catalog is provided in the following figure:
 
 ![image](https://github.com/user-attachments/assets/87fd53c9-c70f-4fb0-8039-84fdd4ade6c7)
-**Schematic for constructing the Moutai microbiome catalog and the key results.** (A) Taxonomic structure analysis of the fermented grain microbiome. This module includes biomarker analysis, network analysis, community assembly process, and Mantel test analysis. (B) Functional and taxonomic annotation for the gene catalog. The number and percentage of genes were calculated by annotations analyses against the mainstream functional databases (Swiss-Prot, UniRef50, TrEMBL, eggNOG, KEGG, COG, GO, EC, CAZy, and CARD). (C) Genome profile and biosynthetic gene clusters (BGCs) as examined by the analytical pipeline. This module includes BGC prediction and annotation, the species-level clustering of MAGs, as well as the taxonomical and functional annotation for MAGs. In the whole figure, the green rectangles show the main results, the blue parallelograms represent the analytic procedures, and the software applied for each analytic procedure is shown in purple text. Yellow cylinders represent the databases used for MTFGC analysis.
+**Schematic for constructing the Moutai microbiome catalog and the key results.** (A) Taxonomic structure analysis of the fermented grain microbiome. This module includes biomarker analysis, network analysis, community assembly process, and Mantel test analysis. (B) Functional and taxonomic annotation for the gene catalog. The number and percentage of genes were calculated by annotations analyses against the mainstream functional databases (Swiss-Prot, UniRef50, TrEMBL, eggNOG, KEGG, COG, GO, EC, CAZy, and CARD). (C) Genome profile and biosynthetic gene clusters (BGCs) as examined by the analytical pipeline. This module includes BGC prediction and annotation, the species-level clustering of MAGs, and the taxonomical and functional annotation for MAGs. In the whole figure, the green rectangles show the main results, the blue parallelograms represent the analytic procedures, and the software applied for each analytic procedure is shown in purple text. Yellow cylinders represent the databases used for MTFGC analysis.
 
 ## Software 
-The name, version and availability of the softwares  for constructing the Moutai Microbiome Catalog are provided as below:
+The name, version, and availability of the software for constructing the Moutai Microbiome Catalog are provided as below:
 
 | **reagent or resources**    | **version**                | **identifier**                                        | **source**                                         |
 |:-----------------------:|:----------------------:|:-------------------------------------------------:|:----------------------------------------------:|
@@ -66,4 +64,4 @@ The test data are provided under the directory "data/".
 
 The result is provided in the directory "Figures/".
 
-To use them, simply download the whole package and run in the R.
+To use them, please download the whole package and run in the R.
