@@ -1,11 +1,16 @@
 # The Construction of Reference Gene and Genome Catalogs of Chinese Liquor
 
-<h2>Key Resource Table</h2>
-Necessary resources of software, algorithms, and databases are provided as follow:
+The pipline for constructing the Moutai Microbiome Catalog is provided in the following figure:
 
-| **REAGENT or RESOURCES**    | **Version**                | **IDENTIFIER**                                        | **SOURCE**                                         |
+![image](https://github.com/user-attachments/assets/87fd53c9-c70f-4fb0-8039-84fdd4ade6c7)
+**Schematic for constructing the Moutai microbiome catalog and the key results.** (A) Taxonomic structure analysis of the fermented grain microbiome. This module includes biomarker analysis, network analysis, community assembly process, and Mantel test analysis. (B) Functional and taxonomic annotation for the gene catalog. The number and percentage of genes were calculated by annotations analyses against the mainstream functional databases (Swiss-Prot, UniRef50, TrEMBL, eggNOG, KEGG, COG, GO, EC, CAZy, and CARD). (C) Genome profile and biosynthetic gene clusters (BGCs) as examined by the analytical pipeline. This module includes BGC prediction and annotation, the species-level clustering of MAGs, as well as the taxonomical and functional annotation for MAGs. In the whole figure, the green rectangles show the main results, the blue parallelograms represent the analytic procedures, and the software applied for each analytic procedure is shown in purple text. Yellow cylinders represent the databases used for MTFGC analysis.
+
+## Software 
+The name, version and availability of the softwares  for constructing the Moutai Microbiome Catalog are provided as below:
+
+| **reagent or resources**    | **version**                | **identifier**                                        | **source**                                         |
 |:-----------------------:|:----------------------:|:-------------------------------------------------:|:----------------------------------------------:|
-| **Software and algorithms** |                        |                                                   |                                                |
+| **software and algorithms** |                        |                                                   |                                                |
 | Trimmomatic             | v0.38                  | https://github.com/usadellab/trimmomatic          | https://doi.org/10.1093/bioinformatics/btu170  |
 | MetaPhlAn2              | v2.6.0                 | https://github.com/biobakery/metaphlan2           | https://doi.org/10.1038/nmeth.3589             |
 | MEGAHIT                 | v1.1.2                 | https://github.com/voutcn/megahit                 | https://doi.org/10.1093/bioinformatics/btv033  |
@@ -21,26 +26,42 @@ Necessary resources of software, algorithms, and databases are provided as follo
 | DeepARG                 | v1.0.2                 | https://github.com/deeparg/deeparg                | https://doi.org/10.1186/s40168-018-0401-z      |
 | eggNOG-mapper           | v2.1.6                 | https://github.com/eggnogdb/eggnog-mapper         | https://doi.org/10.1093/molbev/msab293         |
 | antiSMASH               | v6.0.0                 | https://github.com/antismash/antismash            | https://doi.org/10.1093/nar/gkab335            |
-| BiG-SCAPE               | v1.1.5                 | https://github.com/medema-group/big-scape         | https://doi.org/10.1038/s41589-019-0400-9      |
+| BiG-SCAPE              | v1.1.5                 | https://github.com/medema-group/big-scape         | https://doi.org/10.1038/s41589-019-0400-9      |
 | dRep                    | v3.4.0                 | https://github.com/mrolm/drep                     | https://doi.org/10.1038/ismej.2017.126         |
 | GTDB-tk                 | v2.1.1                 | https://gtdb.ecogenomic.org/downloads             | https://doi.org/10.1093/bioinformatics/btac672 |
 | Rosetta2                | v2.0                   | https://github.com/h33p/docker-rosetta2           | https://doi.org/10.1006/jmbi.1997.0959         |
-| **Databases**               | **Date for download**      | **IDENTIFIER**                                        | **SOURCE**                                         |
-| eggNOG                  | v5.0; 2022_12          | http://eggnog5.embl.de/#/app/downloads            | https://doi.org/10.1093/nar/gky1085            |
-| KEGG                    | 2022_12                | http://kobas.cbi.pku.edu.cn/kobas3/download/      | https://doi.org/10.1093/nar/gkaa970            |
-| COG                     | 2022_12                | http://www.ncbi.nlm.nih.gov/cog/                  | http://oi.org/10.1093/nar/gkaa1018             |
-| GO                      | 2022_12                | http://geneontology.org/                          | http://oi.org/10.1093/nar/gky1055              |
-| CAZyDB                  | 2022_12                | http://www.cazy.org/                              | https://doi.org/10.1093/nar/gkn663             |
-| EC                      | 2022_12                | https://enzyme.expasy.org/index.html              | http://oi.org/10.1093/nar/28.1.304             |
-| CARD                    | 2022_12                | https://card.mcmaster.ca/download                 | https://doi.org/10.1093/nar/gkz935             |
-| GTDB                    | release207_v2; 2022_12 | https://gtdb.ecogenomic.org/downloads             | https://doi.org/10.1093/bioinformatics/btac672 |
-| Swiss-sport             | 2022_12                | https://www.uniprot.org/                          | https://doi.org/10.1093/nar/gkac1052           |
-| TrEMBL                  | 2022_12                | https://www.uniprot.org/                          | https://doi.org/10.1093/nar/gkac1052           |
-| UniRef50                | 2022_12                | https://www.uniprot.org/                          | https://doi.org/10.1093/bioinformatics/btm098  |
-| Pfam                     | 2022_12                | http://pfam-legacy.xfam.org/                      | https://doi.org/10.1093/nar/gkaa913            |
 
 
-<h2>Data availability</h2>
+## Database
 
-The data (raw data, genome catalog, and gene catalog) used for this study could be assessed at the <a href="https://ngdc.cncb.ac.cn/gsa/" title="GSA database">GSA database</a> with ProjectID: <a href="https://ngdc.cncb.ac.cn/search/?dbId=gsa&q=PRJCA018633" title="PRJCA018633">PRJCA018633</a> for fermented grain samples and <a href="https://ngdc.cncb.ac.cn/search/?dbId=gsa&q=PRJCA018634" title="PRJCA018634">PRJCA018634</a> for starter samples.
+The name, description, and availability of the databases for constructing the Moutai Microbiome Catalog are provided as below:
 
+| **Databases**           | **Identifier**                                    | **Source**                                     |
+|:-----------------------:|:-------------------------------------------------:|:----------------------------------------------:|
+| eggNOG                  | http://eggnog5.embl.de/#/app/downloads            | https://doi.org/10.1093/nar/gky1085            |
+| KEGG                    | http://kobas.cbi.pku.edu.cn/kobas3/download/      | https://doi.org/10.1093/nar/gkaa970            |
+| COG                     | http://www.ncbi.nlm.nih.gov/cog/                  | http://oi.org/10.1093/nar/gkaa1018             |
+| GO                      | http://geneontology.org/                          | http://oi.org/10.1093/nar/gky1055              |
+| CAZyDB                  | http://www.cazy.org/                              | https://doi.org/10.1093/nar/gkn663             |
+| EC                      | https://enzyme.expasy.org/index.html              | http://oi.org/10.1093/nar/28.1.304             |
+| CARD                    | https://card.mcmaster.ca/download                 | https://doi.org/10.1093/nar/gkz935             |
+| GTDB                    | https://gtdb.ecogenomic.org/downloads             | https://doi.org/10.1093/bioinformatics/btac672 |
+| Swiss-Prot              | https://www.uniprot.org/                          | https://doi.org/10.1093/nar/gkac1052           |
+| TrEMBL                  | https://www.uniprot.org/                          | https://doi.org/10.1093/nar/gkac1052           |
+| UniRef50                | https://www.uniprot.org/                          | https://doi.org/10.1093/bioinformatics/btm098  |
+| Pfam                    | http://pfam-legacy.xfam.org/                      | https://doi.org/10.1093/nar/gkaa913            |
+
+
+## Data availability
+
+The raw metagenomic data could be assessed at the GSA database (https://ngdc.cncb.ac.cn/gsub/) with ProjectID: [PRJCA018633](https://ngdc.cncb.ac.cn/gsub/submit/bioproject/subPRO027666/overview) for fermented grain samples and [PRJCA018634](https://ngdc.cncb.ac.cn/gsub/submit/bioproject/subPRO027667/overview) for starter samples.
+The data used for constructing MTFGC could be assessed in the National Genomics Data Center (NGDC) database (https://ngdc.cncb.ac.cn/) with BioProject ID: PRJCA018633. The raw data of MTFGC could be assessed with accession ID: [CRA014449](https://ngdc.cncb.ac.cn/gsa/browse/CRA014449) and [CRA012433](https://ngdc.cncb.ac.cn/gsa/s/78i4CpbH) for raw data, [GWHERCQ00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/MwurLYcaCyNIidtFQxFPbtNyEBlylGBAcufNmWKwaeBxbQClRdkByKQWAyelhHUQ) and [GWHERDV00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/FdCXkApAOxjuxPsBbDDaPOuuPzEXoqtLuTNkvNoZgSfXLjnKTMEfLJzcNfataCRm) for MAGs (MTFGC-Genome), as well as [GWHERDA00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/CftXilRTWqtgESQUjHMUXRJhwWSOivnSoADqxYZSZCsfOCVtKIfUOjGoLIEVQPDR) and [GWHERDZ00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/fzBWcHAevOONaiNaHyyNdHHqiETUKGjGNTrmAcgFqPxxxZMDdfjrACyufeKRLCLq) for nonredundant genes (MTFGC-Gene). The data used for constructing MTC could be assessed in the NGDC database with BioProject ID: PRJCA018633 and PRJCA018634. The raw data of MTC could be assessed with accession ID: [CRA012433](https://ngdc.cncb.ac.cn/gsa/s/78i4CpbH) and [CRA012434](https://ngdc.cncb.ac.cn/gsa/s/78i4CpbH) for raw data, [GWHERDW00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/XIdizhitcQKZlMYMFoFMlhkLGcHRECGHlNriMMHLsHRbUWZsUxUNJCtMZhoIYUDD) for MAGs (MTC-Genome), and [GWHERDX00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/veJRgCnYJQxnzPpzOJrLveBleaxQEGocwUKyuAIeWFptJtcRXckrknJIklLXfWjk) for nonredundant genes (MTC-Gene). 
+
+## Code availability
+The bioinformatics analysis of Moutai Microbiome in R is provided in "scripts/". 
+
+The test data are provided under the directory "data/".
+
+The result is provided in the directory "Figures/".
+
+To use them, simply download the whole package and run in the R.
