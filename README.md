@@ -57,4 +57,14 @@ The name, description, and availability of the databases for constructing the Mo
 The raw metagenomic data could be assessed at the GSA database (https://ngdc.cncb.ac.cn/gsub/) with ProjectID: [PRJCA018633](https://ngdc.cncb.ac.cn/gsub/submit/bioproject/subPRO027666/overview) for fermented grain samples and [PRJCA018634](https://ngdc.cncb.ac.cn/gsub/submit/bioproject/subPRO027667/overview) for starter samples.
 The data used for constructing MTFGC could be assessed in the National Genomics Data Center (NGDC) database (https://ngdc.cncb.ac.cn/) with BioProject ID: PRJCA018633. The raw data of MTFGC could be assessed with accession ID: [CRA014449](https://ngdc.cncb.ac.cn/gsa/browse/CRA014449) and [CRA012433](https://ngdc.cncb.ac.cn/gsa/s/78i4CpbH) for raw data, [GWHERCQ00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/MwurLYcaCyNIidtFQxFPbtNyEBlylGBAcufNmWKwaeBxbQClRdkByKQWAyelhHUQ) and [GWHERDV00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/FdCXkApAOxjuxPsBbDDaPOuuPzEXoqtLuTNkvNoZgSfXLjnKTMEfLJzcNfataCRm) for MAGs (MTFGC-Genome), as well as [GWHERDA00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/CftXilRTWqtgESQUjHMUXRJhwWSOivnSoADqxYZSZCsfOCVtKIfUOjGoLIEVQPDR) and [GWHERDZ00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/fzBWcHAevOONaiNaHyyNdHHqiETUKGjGNTrmAcgFqPxxxZMDdfjrACyufeKRLCLq) for nonredundant genes (MTFGC-Gene). The data used for constructing MTC could be assessed in the NGDC database with BioProject ID: PRJCA018633 and PRJCA018634. The raw data of MTC could be assessed with accession ID: [CRA012433](https://ngdc.cncb.ac.cn/gsa/s/78i4CpbH) and [CRA012434](https://ngdc.cncb.ac.cn/gsa/s/78i4CpbH) for raw data, [GWHERDW00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/XIdizhitcQKZlMYMFoFMlhkLGcHRECGHlNriMMHLsHRbUWZsUxUNJCtMZhoIYUDD) for MAGs (MTC-Genome), and [GWHERDX00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/reviewer/veJRgCnYJQxnzPpzOJrLveBleaxQEGocwUKyuAIeWFptJtcRXckrknJIklLXfWjk) for nonredundant genes (MTC-Gene). 
 
+## Code availability
+The bioinformatics analysis of Moutai Microbiome in R is provided in "scripts/". 
+
+The test data are provided under the directory "data/".
+
+The result is provided in the directory "Figures/".
+
+To use them, please download the whole package and run in the R.
+
+
 For more details, please refer to https://github.com/zhuxue1002/Moutai-Catalog/
